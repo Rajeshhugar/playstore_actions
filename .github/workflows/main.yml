@@ -4,7 +4,7 @@ on:
   push:
     branches: [main]
   schedule:
-    - cron: '0 */8 * * *'  # Run every 8 hours
+    - cron: '0 */19 * * *'  # Run every 8 hours
 
 jobs:
   run-python-script:
