@@ -3,7 +3,9 @@ import pandas as pd
 from datetime import datetime
 from google_play_scraper import Sort, reviews_all
 
-app_id_lst = ["com.jio.media.jiobeats", "com.spotify.music", "com.bsbportal.music"]
+#app_id_lst = ["com.jio.media.jiobeats", "com.spotify.music", "com.bsbportal.music"]
+
+app_id_lst = ["com.tmobile.familycontrols","com.verizon.verizonidauth","com.bsbportal.music"]
 
 # Create the 'artifacts' directory if it doesn't exist
 if not os.path.exists('artifacts'):
