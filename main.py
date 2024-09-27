@@ -5,7 +5,7 @@ from google_play_scraper import Sort, reviews_all
 
 #app_id_lst = ["com.jio.media.jiobeats", "com.spotify.music", "com.bsbportal.music"]
 
-app_id_lst = ["com.att.miatt"]
+app_id_lst = ["om.vodafone.mva", "in.spacecom.log2space.client.comcastBroadband"]
 
 # Create the 'artifacts' directory if it doesn't exist
 if not os.path.exists('artifacts'):
